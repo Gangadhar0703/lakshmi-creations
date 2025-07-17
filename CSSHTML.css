@@ -2,6 +2,10 @@
 margin: 0;
 padding: 0;
 }
+@media (min-width: 100px;) {
+display: flex;
+  margin: auto;
+}
 h1 {
 font-size: 2em;
 color: gold;
