@@ -2,17 +2,6 @@
 margin: 0;
 padding: 0;
 }
-@media (min-width: 768px) {
-    body {
-        font-size: 1.125em;
-        padding: 1.25em;
-    }
-}
-@media (min-width: 1024px) {
-    .container {
-        max-width: 1200px;
-    }
-}
 h1 {
 font-size: 2em;
 color: gold;
