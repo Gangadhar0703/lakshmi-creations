@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+  <title> Lakshmi Creations </title>
+<link rel="stylesheet" href="CSSHTML.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div id="band">
+<em><strong>
+<div style="font-size: 3.125em; color: black; background: gold; padding-top: 0.3125em; padding-bottom: 0.3125em;"> <span class="fadel">L</span><span class="fadea">A</span><span class="fadek">K</span><span class="fades">S</span><span class="fadeh">H</span><span class="fadem">M</span><span class="fadei">I</span> <span class="fadec">C</span><span class="fader">R</span><span class="fadee">E</span><span class="fadea2">A</span><span class="fadet">T</span><span class="fadei2">I</span><span class="fadeo">O</span><span class="faden">N</span><span class="fades2">S</span></div><br>
+</strong></em>
+<div id="call" style="padding-top: 0.625em;">
+<a class="icon" href="tel:+91 9611678571">
+<ion-icon class="icon-size" name="call"></ion-icon>
+</a>
+</div>
+<div id="insta" style="padding-top: 0.625em;">
+<a target="_blank" class="icon2" href="https://instagram.com/lakshmimanjunath8023">
+<ion-icon class="icon-size" name="logo-instagram"></ion-icon>
+</a>
+</div>
+<div id="maps" style="padding-top: 0.625em;">
+<a target="_blank" class="icon3" href="https://maps.app.goo.gl/DBZCscBDKPvRiqGU7?g_st=aw">
+<ion-icon class="icon-size" name="pin"></ion-icon>
+</a>
+</div>
+<div id="email" style="padding-top: 0.625em;">
+<a target="_blank" class="icon4" href="mailto:vlakshmi.art@gmail.com">
+<ion-icon class="icon-size" name="mail"></ion-icon>
+</a>
+</div>
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 62.5em;
+  position: relative;
+  margin: auto;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 18.75em) {
+  .text {font-size: 0.6875em}
+}
+</style>
+</head>
+<body bgcolor="black">
+<div id="firstimg" class="slideshow-container">
+<div class="mySlides fade">
+  <img src="LC Pics/logo.jpg" style="width: 25em; height: 25em;">
+</div>
+
+<div class="mySlides fade">
+  <img src="LC Pics/peacockset.jpg" style="width: 25em; height: 25em;">
+</div>
+
+<div class="mySlides fade">
+  <img src="LC Pics/arch.jpg" style="width: 25em; height: 25em;">
+</div>
+
+<div class="mySlides fade">
+  <img src="LC Pics/archset.jpg" style="width: 25em; height: 25em;">
+</div>
+
+<div class="mySlides fade">
+  <img src="LC Pics/bluegreen.jpg" style="width: 25em; height: 25em;">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+</script>
+<h2 id="about" class="h2clr"> About Us  </h2>
+<div class="para-container">
+<p>Lakshmi Creations offers you with the most amazing pieces of art!<br>
+There are many more exciting hand-made crafts of wood waiting for you!<br>
+A Few Sample pieces have been shown in the next page, you are welcome<br>
+to see them and purchase them!</p>
+</div>
+<br>
+<br>
+<br>
+<br><br><br><br><br><br><br>
+<h3 class="h3clr">Working Days  </h3>
+<span class="timings"> Monday - Saturday [10 am - 8 pm]<br><br>
+<b><h2 class="h3clr"> Payments  </h2></b>
+<span class="payments"><ul>
+<li>Cash
+<li>Google Pay / Phone pe  9611678571
+<li>UPI  
+</ul></span>
+<br>
+<h3 class="h2clr">Address  </h3>
+<span class="address">#1108, 8th cross road, Ashok Nagar, near Vidyapeetha<br>circle, Banashankari 1st Stage<br>Bangalore-560050.</span>
+<br>
+<br>
+<br>
+<br>
+<a href="Lakshmi Creations HTML 2.html"><button class="nextpage"> Next </button></a>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>

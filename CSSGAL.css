@@ -1,0 +1,503 @@
+h1 {
+font-size: 2em;
+color: gold;
+font-family: sans-serif;
+font-style: italic;
+}
+.h2clr {
+font-size: 1.5em;
+color:gold;
+}
+.prevpage {
+cursor: pointer;
+position: absolute;
+bottom: 3%;
+left: 1%;
+font-size: 1.25em;
+width: 5em;
+height: 1.875em;
+background: gold;
+color: black;
+transition: background 0.2s;
+}
+.prevpage:hover{
+background: yellow;
+color: black;
+}
+.shoppage {
+cursor: pointer;
+position: absolute;
+bottom: 30%;
+right: 24%;
+font-size: 1em;
+width: 6.25em;
+height: 1.875em;
+background: black;
+color: gold;
+transition: background 0.2s;
+}
+.shoppage:hover{
+background: grey;
+color: yellow;
+}
+.shoptext {
+  position: relative;
+  left: 3.5%;
+  background-color: gold;
+  border: 0.25em solid gold;
+  border-radius: 0.9375em;
+  padding: 0.625em;
+  max-width: 31.25em;
+  height: 60vh;
+  color: black;
+}
+.formpage {
+cursor: pointer;
+position: absolute;
+bottom: 20%;
+left: 1%;
+font-size: 1.25em;
+width: 5em;
+height: 1.875em;
+background: gold;
+color: black;
+transition: background 0.2s;
+}
+.formpage:hover{
+background: yellow;
+color: black;
+}
+.back-redirect {
+font-size: 1.5em;
+color:gold;
+position: absolute;
+top: 65%;
+left: 10%;
+}
+.redirect-action {
+position: absolute;
+top: 72%;
+left: 20%;
+}
+.h3clr {
+font-size: 1.17em;
+color: gold;
+}
+img {
+border: 0.125em solid white;
+border-radius: 1.25em;
+display: inline-block;
+}
+.infoclr {
+color: silver;
+font-size: 0.9375em;
+}
+p {
+background-color: black;
+font-size: 1.25em;
+color: silver;
+}
+.submitted {
+color: gold;
+font-size: 2em;
+font-weight: bold;
+font-family: sans;
+font-style: italic;
+}
+.sub-para {
+color: gold;
+font-size: 1.25em;
+border: 0.1875em solid silver;
+position: absolute;
+left: 23%;
+bottom: 50%;
+padding: 3.125em;
+}
+#textborder {
+border: 0.25em solid gold;
+border-radius: 0.9375em;
+position: absolute;
+top: 27%;
+width: 45%;
+height: 15%;
+padding-left: 1.375em;
+}
+.img-align img {
+transform: rotate(10deg);
+border-radius: 0.3125em;
+float: right;
+width: 15.625em;
+height: 15.625em;
+position: absolute;
+top: 20%;
+left: 80%;
+}
+.img-align {
+width: 65%;
+}
+.slide-position img {
+  position: relative;
+top: 20%;
+margin: 0;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.left-button {
+position: relative;
+bottom: 15%;
+right: 15%;
+width: 2.5em;
+height: 2.5em;
+background: gold;
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border: none;
+text-decoration: none;
+transition: background 0.2s;
+}
+.right-button {
+position: relative;
+bottom: 15%;
+left: 95%;
+width: 2.5em;
+height: 2.5em;
+background: gold;
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border: none;
+text-decoration: none;
+transition: background 0.2s;
+}
+.left-button:hover{
+background: yellow;
+}
+.right-button:hover{
+background: yellow;
+}
+.timings {
+color: silver;
+}
+.payments {
+color: silver;
+}
+.address {
+color: silver;
+}
+.imglsize {
+font-size: 1.875em;
+}
+.buttons {
+color: gold;
+font-size: 1.875em;
+}
+.fadel {
+opacity: 0;
+animation: fadein 1s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fadea {
+opacity: 0;
+animation: fadein 1.7s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fadek {
+opacity: 0;
+animation: fadein 2.5s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fades {
+opacity: 0;
+animation: fadein 3.3s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fadeh {
+opacity: 0;
+animation: fadein 4.1s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fadem {
+opacity: 0;
+animation: fadein 4.9s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fadei {
+opacity: 0;
+animation: fadein 5.7s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fadec {
+opacity: 0;
+animation: fadein 6.5s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fader {
+opacity: 0;
+animation: fadein 7.3s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fadee {
+opacity: 0;
+animation: fadein 8.1s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fadea2 {
+opacity: 0;
+animation: fadein 9s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fadet {
+opacity: 0;
+animation: fadein 9.8s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fadei2 {
+opacity: 0;
+animation: fadein 10.6s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fadeo {
+opacity: 0;
+animation: fadein 11.4s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.faden {
+opacity: 0;
+animation: fadein 12.2s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fades2 {
+opacity: 0;
+animation: fadein 13s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fade1 {
+opacity: 0;
+animation: fadein 0.8s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fade2 {
+opacity: 0;
+animation: fadein 1.6s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fade3 {
+opacity: 0;
+animation: fadein 2.4s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fade4 {
+opacity: 0;
+animation: fadein 3.2s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fade5 {
+opacity: 0;
+animation: fadein 4s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fade6 {
+opacity: 0;
+animation: fadein 4.8s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.fade7 {
+opacity: 0;
+  animation: fadein 5.6s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes fadein {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.pad-peacock {
+padding-inline: 50%;
+}
