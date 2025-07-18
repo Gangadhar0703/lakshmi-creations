@@ -45,7 +45,6 @@ font-size: 1.5em;
 color: gold;
 }
 .para-container p {
-display: inline-block;
 position: absolute;
 top: 25%;
 border: 0.3125em solid gold;
