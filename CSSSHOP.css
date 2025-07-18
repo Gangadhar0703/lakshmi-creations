@@ -39,6 +39,13 @@ body {
     font-style: italic;
     font-size: xx-large;
 }
+.price {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
 .cartbtn {
     width: 10em;
     height: 3em;
