@@ -24,7 +24,7 @@
 }
 }
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
 body {
@@ -32,19 +32,24 @@ body {
     color: gold;
 }
 .cart {
+    position: fixed;
+    top: 0;
+    right: 0;
     display: inline-block;
-    text-align: center;
-}
-.names {
-    font-style: italic;
-    font-size: xx-large;
-}
-.price {
-    display: block;
-    text-align: center;
+    background-color: gold;
+    color: black;
+    width: 8em;
+    height: 2em;
+    font-size: large;
     justify-content: center;
     align-items: center;
-    font-size: x-large;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.cart:hover {
+    background-color: yellow;
 }
 .cartbtn {
     width: 10em;
@@ -61,4 +66,30 @@ body {
 }
 .cartbtn:hover {
     background-color: yellow;
+}
+.lotus {
+    display: inline-block;
+    text-align: center;
+}
+.swan {
+    display: inline-block;
+    text-align: center;
+}
+.names {
+    font-style: italic;
+    font-size: xx-large;
+}
+.price1 {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+.price2 {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
 }
