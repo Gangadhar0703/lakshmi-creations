@@ -32,6 +32,7 @@ body {
     color: gold;
 }
 .cart {
+    cursor: pointer;
     position: fixed;
     top: 0;
     right: 0;
