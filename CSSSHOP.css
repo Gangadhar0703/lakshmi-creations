@@ -75,6 +75,10 @@ body {
     display: inline-block;
     text-align: center;
 }
+.arch {
+    display: inline-block;
+    text-align: center;
+}
 .names {
     font-style: italic;
     font-size: xx-large;
@@ -87,6 +91,13 @@ body {
     font-size: x-large;
 }
 .price2 {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+.price3 {
     display: block;
     text-align: center;
     justify-content: center;
