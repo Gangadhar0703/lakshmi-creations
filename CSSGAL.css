@@ -10,9 +10,9 @@ color:gold;
 }
 .prevpage {
 cursor: pointer;
-position: absolute;
-bottom: 3%;
-left: 1%;
+position: fixed;
+bottom: 0;
+left: 0;
 font-size: 1.25em;
 width: 5em;
 height: 1.875em;
