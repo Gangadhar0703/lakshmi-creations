@@ -32,9 +32,9 @@ margin: auto;
 }
 .nextpage {
 cursor: pointer;
-position: absolute;
-bottom: 3%;
-right: 1%;
+position: fixed;
+bottom: 0;
+right: 0;
 font-size: 1.25em;
 width: 5em;
 height: 1.875emem;
