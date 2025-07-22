@@ -53,6 +53,7 @@ body {
     background-color: yellow;
 }
 .cartbtn {
+    cursor: pointer;
     width: 10em;
     height: 3em;
     display: inline-block;
