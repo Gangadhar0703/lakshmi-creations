@@ -1,4 +1,32 @@
+/* for phones */
+@media screen and (max-width: 480px)    
+{
+.container {
+    width: 100%;
+    padding: 0.625em;
+}
+}
+/* for larger phones / small tablets */
+@media screen and (min-width: 481px) and (max-width: 767px)    
+{
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 1.25em;
+}
+}
+/* for tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px)   
+{
+.container {
+    max-width: 1200px;
+    padding: 1.875em;
+}
+}
 body {
     background-color: black;
     color: gold;
+}
+* {
+    padding: 0;
 }
