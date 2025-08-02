@@ -1,52 +1,56 @@
 /* for phones */
-@media screen and (max-width: 480px)    
-{
-.container {
-    width: 100%;
-    padding: 0.625em;
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 0.625em;
+    }
 }
-}
+
 /* for larger phones / small tablets */
-@media screen and (min-width: 481px) and (max-width: 767px)    
-{
-.container {
-    max-width: 750px;
-    margin: 0 auto;
-    padding: 1.25em;
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .container {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 1.25em;
+    }
 }
-}
+
 /* for tablets */
-@media screen and (min-width: 768px) and (max-width: 1024px)   
-{
-.container {
-    max-width: 1200px;
-    padding: 1.875em;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        max-width: 1200px;
+        padding: 1.875em;
+    }
 }
-}
+
 * {
     margin: 10px;
     padding: 0;
 }
+
 body {
     background-color: black;
     color: gold;
 }
+
 .prevpage {
-cursor: pointer;
-position: fixed;
-bottom: 0;
-left: 0;
-font-size: 1.25em;
-width: 5em;
-height: 1.875em;
-background: gold;
-color: black;
-transition: background 0.2s;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 1.25em;
+    width: 5em;
+    height: 1.875em;
+    background: gold;
+    color: black;
+    transition: background 0.2s;
 }
-.prevpage:hover{
-background: yellow;
-color: black;
+
+.prevpage:hover {
+    background: yellow;
+    color: black;
 }
+
 .homediv {
     display: flex;
     flex-wrap: nowrap;
@@ -54,6 +58,7 @@ color: black;
     align-items: center;
     text-align: center;
 }
+
 .home {
     cursor: pointer;
     position: fixed;
@@ -71,9 +76,11 @@ color: black;
     text-decoration: none;
     transition: background 0.2s;
 }
+
 .home:hover {
     background-color: yellow;
 }
+
 .cart {
     cursor: pointer;
     position: fixed;
@@ -92,9 +99,11 @@ color: black;
     text-decoration: none;
     transition: background 0.2s;
 }
+
 .cart:hover {
     background-color: yellow;
 }
+
 .cartbtn {
     cursor: pointer;
     width: 10em;
@@ -109,25 +118,31 @@ color: black;
     color: black;
     transition: background 0.2s;
 }
+
 .cartbtn:hover {
     background-color: yellow;
 }
+
 .lotus {
     display: inline-block;
     text-align: center;
 }
+
 .swan {
     display: inline-block;
     text-align: center;
 }
+
 .arch {
     display: inline-block;
     text-align: center;
 }
+
 .names {
     font-style: italic;
     font-size: xx-large;
 }
+
 .price1 {
     display: block;
     text-align: center;
@@ -135,6 +150,7 @@ color: black;
     align-items: center;
     font-size: x-large;
 }
+
 .price2 {
     display: block;
     text-align: center;
@@ -142,6 +158,7 @@ color: black;
     align-items: center;
     font-size: x-large;
 }
+
 .price3 {
     display: block;
     text-align: center;
