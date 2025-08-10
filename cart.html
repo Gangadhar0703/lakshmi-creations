@@ -11,8 +11,72 @@
 
     <body>
         <center>
-            <h1 class="yourcart"> Your Cart : </h1>
+            <div class="yourcart"></div>
         </center>
+        <script>
+// ---- Display Cart Content in .yourcart ----
+
+// Get cart from localStorage (same "cart" key as shop.js)
+const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+function renderCart() {
+    const container = document.querySelector(".yourcart");
+    if (!container) return;
+
+    container.innerHTML = ""; // Clear old items
+
+    if (cart.length === 0) {
+        container.innerHTML = '<p style="font-size: 1.5em;">Your cart is empty.</p>';
+        return;
+    }
+
+    let total = 0;
+    // Table header
+    const table = document.createElement("table");
+    table.style.width = "100%";
+    table.style.borderCollapse = "collapse";
+    table.innerHTML = `
+    <tr style="color:gold; font-weight:bold; font-size: 1.5em;"><br>
+        <td>Product</td>
+        <td>Price</td>
+      </tr>
+    `;
+
+    cart.forEach(item => {
+        total += item.price;
+        const row = document.createElement("tr");
+        row.innerHTML = `
+                <td style="font-size: 1em;">${item.name}</td>
+                <td style="font-size: 1em;">₹${item.price}</td>
+        `;
+        table.appendChild(row);
+    });
+
+    // Total row
+    const totalRow = document.createElement("tr");
+    totalRow.innerHTML = `
+        <td style="font-weight:bold; font-size: 1.5em;">Total</td>
+        <td style="font-weight:bold; font-size: 1.5em;">₹${total}</td>
+    `;
+    table.appendChild(totalRow);
+
+    container.appendChild(table);
+
+    // Simple clear cart button (optional)
+    const clearBtn = document.createElement("button");
+    clearBtn.textContent = "Clear Cart";
+    clearBtn.style = "margin-top:1em; background:gold; color:black; font-weight:bold; padding:0.5em 1em; border:none; border-radius:0.25em; cursor:pointer;";
+    clearBtn.addEventListener("click", function() {
+        localStorage.removeItem("cart");
+        location.reload();
+    });
+    container.appendChild(clearBtn);
+}
+
+// Run on page load
+document.addEventListener("DOMContentLoaded", renderCart);
+
+        </script>
     </body>
 </div>
 
