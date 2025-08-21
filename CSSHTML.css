@@ -772,7 +772,7 @@ p {
 
 /* For Phones */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320px) {
     * {
     margin: 0;
 }
@@ -1544,6 +1544,7 @@ p {
     }
 }
 }
+
 
 
 
