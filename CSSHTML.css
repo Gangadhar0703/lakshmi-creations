@@ -812,7 +812,7 @@ h1 {
 
 .nextpage {
     cursor: pointer;
-    position: relative;
+    position: fixed;
     bottom: 0;
     right: 0;
     font-size: 1.25em;
@@ -1544,5 +1544,6 @@ p {
     }
 }
 }
+
 
 
