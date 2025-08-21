@@ -799,7 +799,7 @@ h1 {
 
 .para-container p {
     position: absolute;
-    top: 50%;
+    top: 25%;
     border: 0.3125em solid gold;
     background: gold;
     color: black;
@@ -1544,4 +1544,5 @@ p {
     }
 }
 }
+
 
