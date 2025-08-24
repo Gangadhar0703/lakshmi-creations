@@ -169,7 +169,7 @@ p {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .left-button {
@@ -606,4 +606,5 @@ p {
 .pad-peacock {
   padding-inline: 50%;
 }
+
 
