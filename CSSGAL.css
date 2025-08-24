@@ -149,8 +149,8 @@ p {
   transform: rotate(10deg);
   border-radius: 0.3125em;
   float: right;
-  width: 15.625em;
-  height: 15.625em;
+  width: 25vh;
+  height: 25vh;
   position: absolute;
   top: 20%;
   left: 80%;
@@ -606,3 +606,4 @@ p {
 .pad-peacock {
   padding-inline: 50%;
 }
+
